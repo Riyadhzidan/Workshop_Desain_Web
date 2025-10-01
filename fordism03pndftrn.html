@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Workshop</title>
+</head>
+<body>
+    <a href="fordism03index.html" >Home</a> |
+    <a href="fordism03pndftrn.html" >Pendaftaran</a> |
+    <a href="fordism03kontak.html">Kontak Panitia</a>
+
+    <h1>Formulir Pendaftaran Workshop Desain Web</h1>
+    
+    <form>
+        <label>Nama Lengkap:<br>
+            <input type="text" name="nama">
+        </label><br><br>
+
+        <label>NIM:<br>
+            <input type="text" name="nim">
+        </label><br><br>
+
+        <label>Email:<br>
+            <input type="email" name="email">
+        </label><br><br>
+
+        <label>Nomor Telepon:<br>
+            <input type="tel" name="telepon">
+        </label><br><br>
+
+    <fieldset>
+        <legend>Jenis Workshop</legend>
+        <input type="radio" name="jenis" value="Dasar HTML">
+        <label> HTML Dasar</label><br>
+        <input type="radio" name="jenis" value="CSS Lanjutan">
+        <label> CSS Lanjutan</label>
+    </fieldset><br>
+
+    <fieldset>
+      <legend>Minat Tambahan</legend>
+      <input type="checkbox" name="minat" value="Javascript">
+      <label> Javascript</label><br>
+      <input type="checkbox" name="minat" value="UI/UX">
+      <label> UI/UX</label><br>
+      <input type="checkbox" name="minat" value="Bootstrap">
+      <label> Bootstrap</label>
+    </fieldset><br>
+
+    <label>Program Studi</label><br>
+        <select name="prodi">
+            <option value="IF">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+            <option value="TI">Teknologi Informasi</option>
+        </select><br><br>
+
+    <label>Tanggal Kehadiran</label><br>
+    <input type="date" name="tanggal"><br><br>
+
+    <input type="submit" value="Daftar">
+    <input type="reset" value="Reset">
+    <hr>
+  </form>
+</body>
+</html>
